@@ -11,19 +11,20 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid space bg-blue">
+        <div class="container-fluid bg-blue">
             <div class="container ">
                 <ul class="c-white d-flex justify-content-end">
                     <li class="px-2">DC POWER VISA</li>
                     <li>ADDITIONAL DC SITES <i class="fas fa-caret-down "></i></li>
                 </ul>
             </div>
+          <div class="container-fluid bg-white">
             <div class="container">
               <div class="row justify-content-betweeen py-3">
-                <div class="col-2">
+                <div class="col-1">
                   <img src="../images/dc-logo.png" alt="dc-logo.png" />
                 </div>
-                <div class="col-8 d-flex align-items-center justify-content-end">
+                <div class="col-9 d-flex align-items-center justify-content-end">
                   <ul class="header-list">
                     <li>CHARACTERS</li>
                     <li>COMICS </li>
@@ -34,20 +35,19 @@
                     <li>VIDEOS</li>
                     <li>FANS</li>
                     <li>NEWS</li>
-                    <li>SHOP<i class="fas fa-caret-down c-blue"></li>
+                    <li>SHOP <i class="fas fa-caret-down "></i></li>
                   </ul>
                 </div>
-                <div class="col-8 d-flex">
-                    
+                <div class="col-1 d-flex">
+                  {{-- search --}}
                 </div>
               </div>
             </div>
           </div>
+        </div>
     </header>
-    <main>
-        <div>
-            <div class="container-fluid jt-image">
-            </div>           
+    <main> 
+        <div class="container-fluid jt-image"></div>    
     </main>
     
 </body>

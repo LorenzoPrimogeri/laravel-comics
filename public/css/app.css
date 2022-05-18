@@ -67,8 +67,8 @@ header .container-fluid {
 /**main**/
 
 .jt-image {
-    background-image: url("../assets/img/jumbotron.jpg");
-    height: 400px;
+    background-image: url("../images/jumbotron.jpg");
+    height: 450px;
     background-size: cover;
     background-repeat: no-repeat;
 }
