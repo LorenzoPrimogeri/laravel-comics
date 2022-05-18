@@ -14,8 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-
-    return view('index');
+    $comicsArray = config('comics');
+    $comicsDataArray = config('comicsdata');
+    $comicsFooter = config('comicsfooter');
+    return view('index', ["comicsArray" => $comicsArray, "comicsData" => $comicsDataArray, "comicsFooter" => $comicsFooter]);
 });
 
 Route::get('/stampa', function () {

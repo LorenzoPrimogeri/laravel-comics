@@ -1,9 +1,11 @@
 /*formattazione*/
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-li {
+header li {
     padding: 0px 10px;
     display: inline;
 }
@@ -24,6 +26,10 @@ a:hover {
 /*utility*/
 .bg-blue {
     background-color: hsl(209deg 98% 49%);
+}
+
+.bg-black {
+    background-color: hsl(0deg 0% 11%);
 }
 
 .c-grey {
@@ -73,4 +79,63 @@ header .container-fluid {
     background-repeat: no-repeat;
 }
 
+.position-relative p {
+    top: -20px;
+}
+
+.sizeImg {
+    padding-right: 5px;
+    width: 60px;
+}
+
 /*/main**/
+
+/**footer*/
+footer .jumbo_footer {
+    background-image: url("/images/footer-bg.jpg");
+    background-repeat: repeat-x;
+}
+
+footer .container_footer_list h3 {
+    color: white;
+}
+
+footer .container_footer_list a {
+    color: grey;
+}
+
+footer .container_footer_list a:hover {
+    color: white;
+}
+
+footer .container_logo_dc {
+    height: 482px;
+}
+
+footer .logo_dc_bg {
+    background-image: url("/images/dc-logo-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+footer .footer_socials {
+    background-color: #303030;
+}
+
+footer .footer_socials .sign_up_footer {
+    color: white;
+    padding: 10px;
+    border: 2px solid #0282f9;
+}
+
+footer .footer_socials .sign_up_footer:hover {
+    background-color: #0282f9;
+}
+
+footer .footer_socials .follow_footer {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0282f9;
+}
+
+/*/footer**/
