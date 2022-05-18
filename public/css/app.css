@@ -1,0 +1,76 @@
+/*formattazione*/
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 0px 10px;
+    display: inline;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: grey !important;
+}
+
+/*/formattazione*/
+/*utility*/
+.bg-blue {
+    background-color: hsl(209deg 98% 49%);
+}
+
+.c-grey {
+    color: grey;
+}
+
+.c-red {
+    color: red;
+}
+
+.c-white {
+    color: white !important;
+}
+
+.c-blue {
+    color: hsl(209deg 98% 49%);
+}
+
+.lp-btn {
+    border: 1px solid white;
+    padding: 5px 40px;
+}
+
+/*/utility*/
+/*header*/
+.space {
+    height: 30px;
+    background-color: hsl(209deg 98% 49%);
+}
+
+header .container-fluid {
+    padding: 0;
+}
+
+.header-list li {
+    font-weight: 700;
+}
+
+/*/header*/
+
+/**main**/
+
+.jt-image {
+    background-image: url("../assets/img/jumbotron.jpg");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*/main**/
