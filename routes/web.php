@@ -22,5 +22,5 @@ Route::get('/', function () {
 Route::get('/cardinfo/{id}', function ($id) {
     $comicsArray = config('comics');
     $comicsDataArray = config('comicsdata');
-    return view('cardinfo', ["card" => $comicsArray[$id], "comicsArray" => $comicsArray, "comicsData" => $comicsDataArray]);
+    return view('cardinfo', ["card" => $comicsArray[$id], "comicsData" => $comicsDataArray]);
 });

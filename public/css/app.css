@@ -28,6 +28,14 @@ a:hover {
     background-color: hsl(209deg 98% 49%);
 }
 
+.bg-lightgreen {
+    background-color: hsl(122deg 42% 53%);
+}
+
+.bg-lightblue {
+    background-color: hsl(193deg 100% 43%);
+}
+
 .bg-black {
     background-color: hsl(0deg 0% 11%);
 }
@@ -79,19 +87,34 @@ header .container-fluid {
     background-repeat: no-repeat;
 }
 
-.position-relative p {
-    top: -20px;
-}
-
 .sizeImg {
     padding-right: 5px;
     width: 60px;
 }
 
 /*/main**/
+/*Main Card Info*/
 
+.position-absolute.img {
+    bottom: 15px;
+    border: 2px solid white;
+}
+
+.position-absolute.type {
+    top: 0px;
+}
+
+.position-absolute.gallery {
+    bottom: 0px;
+}
+
+.col-9{
+    border-right: 1px solid black;
+}
+
+/*/Main Card Info*/
 /**footer*/
-footer .jumbo_footer {
+.footer .jumbo_footer {
     background-image: url("/images/footer-bg.jpg");
     background-repeat: repeat-x;
 }

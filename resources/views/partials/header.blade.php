@@ -34,4 +34,5 @@
         </div>
       </div>
     </div>
+    <div class="container-fluid jt-image"></div> 
 </header>

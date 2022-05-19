@@ -1,5 +1,4 @@
 <main> 
-  <div class="container-fluid jt-image"></div> 
     <div class="container-fluid bg-black">
       <div class="container p-0 position-relative">
         <p class="lp-btn bg-blue c-white position-absolute">CURRENT SERIES</p>
