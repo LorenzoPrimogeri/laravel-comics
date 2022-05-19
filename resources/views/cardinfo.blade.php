@@ -10,9 +10,16 @@
     <title>Comics</title>
 </head>
 <body>
-  @include('partials.header')
-  @include('partials.main',["comicsArray" => $comicsArray])
-  @include('partials.icon',["comicsData" => $comicsData])
-  @include('partials.footer')
+@include('partials.header')
+<main>
+    <div class="container-fluid bg-blue py-3">    
+        <div>
+            <img src="{{ $card["thumb"] }}" alt="{{  }}" />
+          </div>
+    </div>
+    <div class="container-fluid py-3"></div>
+</main>
+@include('partials.icon',["comicsData" => $comicsData])
+@include('partials.footer')
 </body>
 </html>

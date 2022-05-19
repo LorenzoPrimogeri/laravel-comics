@@ -16,11 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $comicsArray = config('comics');
     $comicsDataArray = config('comicsdata');
-    $comicsFooter = config('comicsfooter');
-    return view('index', ["comicsArray" => $comicsArray, "comicsData" => $comicsDataArray, "comicsFooter" => $comicsFooter]);
+    return view('index', ["comicsArray" => $comicsArray, "comicsData" => $comicsDataArray]);
 });
 
-Route::get('/stampa', function () {
-
-    return view('stampa');
+Route::get('/cardinfo/{id}', function ($id) {
+    $comicsArray = config('comics');
+    $comicsDataArray = config('comicsdata');
+    return view('cardinfo', ["card" => $comicsArray[$id], "comicsArray" => $comicsArray, "comicsData" => $comicsDataArray]);
 });
