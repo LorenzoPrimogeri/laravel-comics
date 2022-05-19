@@ -28,6 +28,18 @@ a:hover {
     background-color: hsl(209deg 98% 49%);
 }
 
+.border-b {
+    border-bottom: 1px solid rgb(177, 176, 176);
+}
+
+.border-t {
+    border-top: 1px solid rgb(177, 177, 177);
+}
+
+.bg-lightgrey {
+    background-color: hsl(0deg 0% 96%);
+}
+
 .bg-lightgreen {
     background-color: hsl(122deg 42% 53%);
 }
@@ -46,6 +58,10 @@ a:hover {
 
 .c-red {
     color: red;
+}
+
+.c-darkblue {
+    color: hsl(200deg 100% 18%);
 }
 
 .c-white {
@@ -108,10 +124,12 @@ header .container-fluid {
     bottom: 0px;
 }
 
-.col-9{
+.col-9 {
     border-right: 1px solid black;
 }
-
+img[alt="ImageData"]{
+    height: 60px;
+}
 /*/Main Card Info*/
 /**footer*/
 .footer .jumbo_footer {
