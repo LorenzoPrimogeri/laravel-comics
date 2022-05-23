@@ -57,11 +57,11 @@
                         </div>
                     </div>
                     <div class="col-4 position-relative">
-                        <div class="position-absolute">
-                            <h3> ADVERTISMENT</h3>
+                        <div class="position-absolute h1">
+                            <h3 class="c-darkblue"> ADVERTISMENT</h3>
                         </div>
                         <div>
-                            <img src="" alt="">
+                            <img class="w-100 mt-4" src="/images/add.jpg" alt="adc">
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,12 @@
                                 </div>
                                 <div class="col-8">
                                     @foreach ($card["artists"] as $item)
-                                    <a href="">{{$item}},</a>
+
+                                    <a href="">{{$item}}</a>
+                                    @if (!$loop->last),
+
+                                    @endif
+
                                     @endforeach
                                 </div>
                             </div>
@@ -94,6 +99,9 @@
                                 <div class="col-8">
                                     @foreach ($card["writers"] as $item)
                                     <a href="">{{$item}},</a>
+                                    @if (!$loop->last),
+
+                                    @endif
                                     @endforeach
                                 </div>
                             </div>

@@ -107,7 +107,10 @@ header .container-fluid {
     padding-right: 5px;
     width: 60px;
 }
-
+.position-absolute.h1{
+    right:  0px;
+    top: -12px;
+}
 /*/main**/
 /*Main Card Info*/
 
